@@ -21,6 +21,7 @@ class Box{
           World.remove(world, this.body);
           this.Visiblity = this.Visiblity - 5;
           tint(255, this.Visiblity);
+          image(this.image, 0, 0, this.width, this.height);
           pop();
         }
         else
